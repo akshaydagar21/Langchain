@@ -1,0 +1,1 @@
+##basically provides a way to make a funcn or lambda treated as a runnable
