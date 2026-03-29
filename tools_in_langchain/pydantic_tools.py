@@ -10,7 +10,6 @@ class MultiplyInput(BaseModel):
 def multiply_func(a: int, b: int) -> int:
     return a * b
 
-
 multiply_tool = StructuredTool.from_function(
     func=multiply_func,
     name="multiply",
